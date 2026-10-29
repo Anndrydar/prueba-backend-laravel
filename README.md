@@ -92,7 +92,23 @@ La API estará disponible normalmente en:
 
 La mayoría de los endpoints están protegidos mediante Laravel Sanctum.
 
+
+## Usuario de prueba
+
+Para probar los endpoints protegidos de la API, primero debes crear un usuario de prueba.
+
+Ejecuta el siguiente comando desde la raíz del proyecto:
+
+```bash
+php artisan db:seed --class=TestUserSeeder
+```
+
+Este comando crea el usuario de prueba o actualiza sus datos si ya existe.
+
+
+
 ### Iniciar sesión
+
 
 **POST** `/api/login`
 
