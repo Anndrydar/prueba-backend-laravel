@@ -33,7 +33,7 @@ API REST desarrollada con Laravel para administrar productos, monedas y precios 
 Clonar el repositorio y entrar en la carpeta del proyecto:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone <https://github.com/Anndrydar/prueba-backend-laravel.git>
 cd prueba-backend-productos
 ```
 
